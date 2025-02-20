@@ -159,7 +159,7 @@ class MinimumSpanningTree{
 int main() {
     int vertices, i, j, weight;
     
-    ifstream inputFile("sample.txt");
+    ifstream inputFile("input.txt");
     if (!inputFile) {
         cerr << "Error opening file" << endl;
         return 1;
